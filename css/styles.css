@@ -1,0 +1,59 @@
+
+
+.bgImage {
+  background-image: url("/images/background.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Fira Code';font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+
+  font-family: 'Fira Code';font-size: 50px;
+
+}
+
+.image img {
+  width: 100%;
+}
+
+.aboutMe {
+  display: flex;
+  padding: 20px;
+}
+.box-1 {
+  padding-left: 10px;
+  padding-right:18px;
+  flex:1.5;
+  
+
+}
+.box-2 {
+  flex: 1.5;
+  font-family: 'Fira Code';font-size: 22px;
+}
+
+
+.intro {
+  font-size: 20px;
+}
+.footer {
+  background-color: #COCOCO;
+  text-align: center;
+  font-family: 'Fira Code';font-size: 22px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutMe {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+  }
+}
